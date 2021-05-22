@@ -1,2 +1,2 @@
-"# Movie_analysis" 
-Django Web application to display Sentimental analysis of Movie reviews and recommend the movie to users based on the sentiment percentage obtained. 
+
+A Django Web application to display Sentimental analysis of Movie reviews and recommend the movie to users based on the sentiment percentage obtained.The training set is created by using the dataset of movie reviews i.e taken from kaggle datasets. This training set of data is then pre-processed. This prep-processing step includes removal of stopwords, punctuation etc. This step will also include tokenization of the content of each review. After the corpus of labelled data is pre-processed, a set of movie reviews is fetched using Rapid API from the subject of the user's choice which will be analyzed using Naive Bayes classifier to calculate the overall sentiment of the topic and recommend the same to the user depending on the sentiment percentage obtained.
